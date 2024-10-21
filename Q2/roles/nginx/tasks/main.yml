@@ -1,0 +1,5 @@
+- name: Copy nginx config
+  ansible.builtin.copy:
+    src: ../../../Q1/nginx.conf
+    dest: /etc/nginx/nginx.conf
+    mode: "0644"

@@ -1,0 +1,4 @@
+- name: Configure nginx
+  group: nginx
+  roles:
+  - nginx
